@@ -3,7 +3,7 @@ from PIL import Image
 from scipy import signal
 import matplotlib.pyplot as plt
 
-print('~ Welcome to my Coin Counter ~ \n')
+print('~ Welcome to my Coin Counter! ~ \n')
 
 
 # ~~~~~~~ Functions ~~~~~~~~
