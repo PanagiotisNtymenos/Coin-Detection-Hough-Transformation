@@ -79,7 +79,6 @@ def showImageWithCircles(image):
     fig = plt.figure()
     image_start = luminance(imageNoFilter)
     plt.imshow(myArrayToImage(image_start))
-
     circleCoordinates = np.argwhere(image)
     circleCoordinates = filterCircles(circleCoordinates)
 
