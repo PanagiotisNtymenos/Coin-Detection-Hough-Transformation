@@ -5,6 +5,6 @@
 ## *Instructions*
 #### Choose an image pressing any number from *2* to *8* (7 is not available).
 
-![](coins002.tif)
+![](images/coins002.tif)
 
 ##### Code runs on Python 3.6 x64 bit.
