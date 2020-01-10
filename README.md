@@ -12,4 +12,11 @@
 ![image](images/coins002_circled.png)  
 
 
+### Image 'coins008'  
+#### Preview  
+![image](images/coins008_preview.png) 
+#### After Hough Transformation  
+![image](images/coins008_circled.png) 
+
+
 ##### Code runs on Python 3.6 x64 bit.
