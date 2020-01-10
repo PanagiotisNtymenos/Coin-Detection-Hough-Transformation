@@ -5,7 +5,7 @@
 ## *Instructions*
 #### Choose an image pressing any number from *2* to *8* (7 is not available), and let the magic happen.
 
-### *Results and Examples*
+## *Results and Examples*
 
 ### Image 'coins002'  
 ![image](images/coins002_HT.png) 
