@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b5382ddf-4fb1-4d2c-93ec-c9ffe5028fb3" name="Default Changelist" comment="" />
+    <list default="true" id="b5382ddf-4fb1-4d2c-93ec-c9ffe5028fb3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,7 +17,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1VyqJO3Uwhba3X09GCqetOtA96I" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -22,6 +29,8 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunManager">
@@ -37,7 +46,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\Panagiwths\Desktop\Projects\Allilepidrash Anthropou-Ypologisth\CoinChecker\CoinCounter.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CoinCounter.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -75,33 +84,67 @@
       <option name="presentableId" value="Default" />
       <updated>1578235610010</updated>
     </task>
+    <task id="LOCAL-00001" summary="Done.">
+      <created>1578594524171</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1578594524172</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Done.">
+      <created>1578613942646</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1578613942646</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Done.">
+      <created>1578614623931</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1578614623931</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Done." />
+    <option name="LAST_COMMIT_MESSAGE" value="Done." />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="414" y="176" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1578260356244">
+    <state x="414" y="176" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1578612338695">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="414" y="176" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1578260356244" />
-    <state width="1899" height="327" key="GridCell.Tab.0.bottom" timestamp="1578499256778">
+    <state x="414" y="176" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1578612338695" />
+    <state x="523" y="115" key="CommitChangelistDialog2" timestamp="1578614621846">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="523" y="115" key="CommitChangelistDialog2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1578614621846" />
+    <state x="184" y="92" key="DiffContextDialog" timestamp="1578505841681">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="184" y="92" key="DiffContextDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1578505841681" />
+    <state width="1899" height="394" key="GridCell.Tab.0.bottom" timestamp="1578614198469">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1899" height="327" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1578400078418" />
-    <state width="1899" height="327" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1578499256778" />
-    <state width="1899" height="327" key="GridCell.Tab.0.center" timestamp="1578499256777">
+    <state width="1899" height="394" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1578614198469" />
+    <state width="1899" height="394" key="GridCell.Tab.0.center" timestamp="1578614198469">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1899" height="327" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1578400078418" />
-    <state width="1899" height="327" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1578499256777" />
-    <state width="1899" height="327" key="GridCell.Tab.0.left" timestamp="1578499256777">
+    <state width="1899" height="394" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1578614198469" />
+    <state width="1899" height="394" key="GridCell.Tab.0.left" timestamp="1578614198469">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1899" height="327" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1578400078418" />
-    <state width="1899" height="327" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1578499256777" />
-    <state width="1899" height="327" key="GridCell.Tab.0.right" timestamp="1578499256777">
+    <state width="1899" height="394" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1578614198469" />
+    <state width="1899" height="394" key="GridCell.Tab.0.right" timestamp="1578614198469">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1899" height="327" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1578400078418" />
-    <state width="1899" height="327" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1578499256777" />
+    <state width="1899" height="394" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1578614198469" />
     <state width="1899" height="348" key="GridCell.Tab.1.bottom" timestamp="1578324202807">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -122,5 +165,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="163" key="SettingsEditor/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1578278263945" />
+    <state x="552" y="254" key="Vcs.Push.Dialog.v2" timestamp="1578614626064">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="254" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1578614626064" />
   </component>
 </project>
