@@ -3,7 +3,9 @@
 ### Detect the type of coins from an image(.tif) using Hough Transformation.
 
 ## *Instructions*
-#### Choose an image pressing any number from *2* to *8* (7 is not available).
+#### Choose an image pressing any number from *2* to *8* (7 is not available), and let the magic happen.
+
+### *Results and Examples*
 
 ### Image 'coins002'  
 ![image](images/coins002_HT.png) 
