@@ -7,8 +7,7 @@
 
 ### Image 'coins002'  
 #### Preview  
-![image](images/coins002_preview.png)  
-  
+![image](images/coins002_preview.png) 
 #### After Hough Transformation  
 ![image](images/coins002_circled.png)  
 
