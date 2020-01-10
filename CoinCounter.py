@@ -182,9 +182,9 @@ def clear(image):
     for i in range(1, rows - 1):
         for j in range(1, cols - 1):
             if image[i, j] == 255:
-                if image[i - 1, j] == 0 and image[i - 1, j - 1] == 0 and image[i + 1, j] == 0 and image[
-                    i + 1, j + 1] == 0 and image[i, j - 1] == 0 and image[i, j + 1] == 0 and image[
-                    i + 1, j - 1] == 0 and image[i - 1, j + 1] == 0:
+                if image[i - 1, j] == 0 or image[i - 1, j - 1] == 0 or image[i + 1, j] == 0 or image[
+                    i + 1, j + 1] == 0 or image[i, j - 1] == 0 or image[i, j + 1] == 0 or image[
+                    i + 1, j - 1] == 0 or image[i - 1, j + 1] == 0:
                     image[i, j] == 0
     return image
 
