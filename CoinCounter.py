@@ -172,7 +172,7 @@ def white(image):
     for i in range(0, rows):
         for j in range(0, cols):
             if image[i, j] != 0:
-                WHITES[i, j] = 255
+                WHITES[i, j] = 1
     return WHITES
 
 
@@ -181,7 +181,7 @@ def clear(image):
     cols = image.shape[1]
     for i in range(1, rows - 1):
         for j in range(1, cols - 1):
-            if image[i, j] == 255:
+            if image[i, j] == 1:
                 if image[i - 1, j] == 0 or image[i - 1, j - 1] == 0 or image[i + 1, j] == 0 or image[
                     i + 1, j + 1] == 0 or image[i, j - 1] == 0 or image[i, j + 1] == 0 or image[
                     i + 1, j - 1] == 0 or image[i - 1, j + 1] == 0:
@@ -222,6 +222,9 @@ def choosenImage():
 # ~~~~~~~ Main ~~~~~~~~
 
 imageNoFilter = myImageToArray(choosenImage())
+
+# Make image binary
+image = imageNoFilter / 255
 
 # Make image grey
 image = luminance(imageNoFilter)
