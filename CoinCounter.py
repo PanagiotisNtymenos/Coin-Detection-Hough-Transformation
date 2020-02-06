@@ -3,7 +3,7 @@ from PIL import Image
 from scipy import signal
 import matplotlib.pyplot as plt
 
-print('~ Welcome to my Coin Counter! ~ \n')
+print('~ Welcome to our Coin Counter! ~ \n')
 
 
 # ~~~~~~~ Functions ~~~~~~~~
@@ -48,6 +48,8 @@ def myHoughTransformation(image, threshold, region, radius=None):
         for angle in range(theta):
             x = int(np.round(r * np.cos(angle)))
             y = int(np.round(r * np.sin(angle)))
+
+            # VOTE
             blueprint[m + x, n + y] = 1
         constant = np.argwhere(blueprint).shape[0]
 
@@ -60,18 +62,15 @@ def myHoughTransformation(image, threshold, region, radius=None):
 
             accumulator[r, X[0]:X[1], Y[0]:Y[1]] += blueprint
 
-        # Thresholding. Some kind of filtering the circles that are about to be made.
+        # Threshold. Some kind of filtering the circles that are about to be made.
         accumulator[r][accumulator[r] < threshold * constant / r] = 0
 
     for r, x, y in np.argwhere(accumulator):
         tempAccum = accumulator[r - region:r + region, x - region:x + region, y - region:y + region]
-        try:
-            p, a, b = np.unravel_index(np.argmax(tempAccum), tempAccum.shape)
-        except:
-            continue
+
+        p, a, b = np.unravel_index(np.argmax(tempAccum), tempAccum.shape)
+
         circles[r + (p - region), x + (a - region), y + (b - region)] = 1
-    # img = luminance()
-    # myArrayToImage(img).show()
     return circles[:, R_max:-R_max, R_max:-R_max]
 
 
@@ -205,7 +204,7 @@ def sobel(image):
     return SOBEL
 
 
-def choosenImage():
+def chosenImage():
     fileName = input('File to open? \n> ')
     print()
     if fileName == '2' or fileName == '3' or fileName == '4' or fileName == '5' or fileName == '6' or fileName == '8':
@@ -221,7 +220,7 @@ def choosenImage():
 
 # ~~~~~~~ Main ~~~~~~~~
 
-imageNoFilter = myImageToArray(choosenImage())
+imageNoFilter = myImageToArray(chosenImage())
 
 # Make image binary
 image = imageNoFilter / 255
