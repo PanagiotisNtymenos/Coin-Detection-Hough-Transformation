@@ -1,3 +1,7 @@
+# Team:
+# AM: 3160120 Name: Παναγιώτης Ντυμένος
+# AM: 3130220 Name: Γεώργιος Φωτόπουλος
+
 import numpy as np
 from PIL import Image
 from scipy import signal
@@ -66,19 +70,21 @@ def myHoughTransformation(image, threshold, region, radius=None):
         accumulator[r][accumulator[r] < threshold * constant / r] = 0
 
     for r, x, y in np.argwhere(accumulator):
-        tempAccum = accumulator[r - region:r + region, x - region:x + region, y - region:y + region]
+        temp_accumulator = accumulator[r - region:r + region, x - region:x + region, y - region:y + region]
 
-        p, a, b = np.unravel_index(np.argmax(tempAccum), tempAccum.shape)
+        p, a, b = np.unravel_index(np.argmax(temp_accumulator), temp_accumulator.shape)
 
         circles[r + (p - region), x + (a - region), y + (b - region)] = 1
     return circles[:, R_max:-R_max, R_max:-R_max]
 
 
 def showImageWithCircles(image):
-    fig = plt.figure()
+    # Black N White image
     image_start = luminance(imageNoFilter)
     plt.imshow(myArrayToImage(image_start))
+    # Keep whites
     circleCoordinates = np.argwhere(image)
+    # Show only one circle(array with pixel values)
     circleCoordinates = filterCircles(circleCoordinates)
 
     twoEuro = 0
@@ -107,9 +113,6 @@ def showImageWithCircles(image):
 
         plt.gca().add_artist(circle[-1])
 
-    # total = twoEuro + oneEuro + fiftyCents + tenCents
-    # print('Total Coins: ', total)
-
     print('Found:')
     print('2-Euro: ', twoEuro)
     print('50-Cent: ', fiftyCents)
@@ -123,10 +126,12 @@ def showImageWithCircles(image):
 def filterCircles(circles):
     rows = circles.shape[0]
     cols = circles.shape[1]
+    # Create array for circles
     rightCircles = np.zeros((rows, cols))
     rightCirclesIndex = 0
 
     for k in range(0, rows):
+        # Check only centers
         if circles[k, 0] != 0:
             sameCircles = np.zeros((rows, cols))
             sameCircles[k, 0] = circles[k, 0]
@@ -205,7 +210,7 @@ def sobel(image):
 
 
 def chosenImage():
-    fileName = input('File to open? \n> ')
+    fileName = input('File to open? [1-8]\n> ')
     print()
     if fileName == '2' or fileName == '3' or fileName == '4' or fileName == '5' or fileName == '6' or fileName == '8':
         file = 'images/coins00' + fileName + '.tif'
