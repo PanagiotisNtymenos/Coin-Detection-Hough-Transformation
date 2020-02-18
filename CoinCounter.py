@@ -1,13 +1,9 @@
-# Team:
-# AM: 3160120 Name: Παναγιώτης Ντυμένος
-# AM: 3130220 Name: Γεώργιος Φωτόπουλος
-
 import numpy as np
 from PIL import Image
 from scipy import signal
 import matplotlib.pyplot as plt
 
-print('~ Welcome to our Coin Counter! ~ \n')
+print('~ Welcome to my Coin Counter! ~ \n')
 
 
 # ~~~~~~~ Functions ~~~~~~~~
@@ -210,7 +206,7 @@ def sobel(image):
 
 
 def chosenImage():
-    fileName = input('File to open? [1-8]\n> ')
+    fileName = input('File to open? [2-8]\n> ')
     print()
     if fileName == '2' or fileName == '3' or fileName == '4' or fileName == '5' or fileName == '6' or fileName == '8':
         file = 'images/coins00' + fileName + '.tif'
